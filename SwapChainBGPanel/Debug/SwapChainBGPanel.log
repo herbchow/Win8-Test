@@ -1,0 +1,58 @@
+﻿Build started 2/1/2013 12:43:38 PM.
+     1>Project "C:\Work\Windows 8 Samples\SwapChainBGPanel\SwapChainBGPanel.vcxproj" on node 2 (Build target(s)).
+     1>FxCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\fxc.exe /nologo /E"main" /T ps_5_0 /Fo "C:\Work\Windows 8 Samples\SwapChainBGPanel\Debug\SwapChainBGPanel\SimplePixelShader.cso" /Od /Zi SimplePixelShader.hlsl 
+         compilation object save succeeded; see C:\Work\Windows 8 Samples\SwapChainBGPanel\Debug\SwapChainBGPanel\SimplePixelShader.cso
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\fxc.exe /nologo /E"main" /T vs_5_0 /Fo "C:\Work\Windows 8 Samples\SwapChainBGPanel\Debug\SwapChainBGPanel\SimpleVertexShader.cso" /Od /Zi SimpleVertexShader.hlsl 
+         compilation object save succeeded; see C:\Work\Windows 8 Samples\SwapChainBGPanel\Debug\SwapChainBGPanel\SimpleVertexShader.cso
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Work\Windows 8 Samples\SwapChainBGPanel\\" /I"Generated Files\\" /IDebug\ /ZI /ZW /ZW:nostdlib /nologo /W3 /WX- /sdl /MP /Od /Oy- /D _UNICODE /D UNICODE /D _DEBUG /D WINAPI_FAMILY=WINAPI_FAMILY_APP /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"pch.h" /Fp"Debug\SwapChainBGPanel.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /FU"C:\Program Files (x86)\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.VCLibs\11.0\References\CommonConfiguration\neutral\platform.winmd" /FU"C:\Program Files (x86)\Windows Kits\8.0\References\CommonConfiguration\Neutral\Windows.winmd" /FU"C:\Program Files (x86)\Windows Kits\8.0\References\CommonConfiguration\Neutral\Windows.winmd" /analyze- /errorReport:prompt /bigobj pch.cpp
+         pch.cpp
+     1>c:\work\windows 8 samples\swapchainbgpanel\mainpage.xaml.h(22): warning C4453: 'Windows::UI::Xaml::Navigation::NavigationEventArgs' : A '[WebHostHidden]' type should not be used on the published surface of a public type that is not '[WebHostHidden]'
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Work\Windows 8 Samples\SwapChainBGPanel\\" /I"Generated Files\\" /IDebug\ /ZI /ZW /ZW:nostdlib /nologo /W3 /WX- /sdl /MP /Od /Oy- /D _UNICODE /D UNICODE /D _DEBUG /D WINAPI_FAMILY=WINAPI_FAMILY_APP /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"pch.h" /Fp"Debug\SwapChainBGPanel.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /FU"C:\Program Files (x86)\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.VCLibs\11.0\References\CommonConfiguration\neutral\platform.winmd" /FU"C:\Program Files (x86)\Windows Kits\8.0\References\CommonConfiguration\Neutral\Windows.winmd" /FU"C:\Program Files (x86)\Windows Kits\8.0\References\CommonConfiguration\Neutral\Windows.winmd" /analyze- /errorReport:prompt /bigobj App.xaml.cpp Controller.cpp DirectXBase.cpp MainPage.xaml.cpp RenderEngine.cpp RunTimer.cpp "Generated Files\XamlTypeInfo.Impl.g.cpp"
+         App.xaml.cpp
+         Controller.cpp
+         DirectXBase.cpp
+         MainPage.xaml.cpp
+         RenderEngine.cpp
+         RunTimer.cpp
+         XamlTypeInfo.Impl.g.cpp
+     1>c:\work\windows 8 samples\swapchainbgpanel\mainpage.xaml.h(22): warning C4453: 'Windows::UI::Xaml::Navigation::NavigationEventArgs' : A '[WebHostHidden]' type should not be used on the published surface of a public type that is not '[WebHostHidden]' (RunTimer.cpp)
+     1>c:\work\windows 8 samples\swapchainbgpanel\mainpage.xaml.h(22): warning C4453: 'Windows::UI::Xaml::Navigation::NavigationEventArgs' : A '[WebHostHidden]' type should not be used on the published surface of a public type that is not '[WebHostHidden]' (Controller.cpp)
+     1>c:\work\windows 8 samples\swapchainbgpanel\mainpage.xaml.h(22): warning C4453: 'Windows::UI::Xaml::Navigation::NavigationEventArgs' : A '[WebHostHidden]' type should not be used on the published surface of a public type that is not '[WebHostHidden]' (App.xaml.cpp)
+     1>c:\work\windows 8 samples\swapchainbgpanel\mainpage.xaml.h(22): warning C4453: 'Windows::UI::Xaml::Navigation::NavigationEventArgs' : A '[WebHostHidden]' type should not be used on the published surface of a public type that is not '[WebHostHidden]' (MainPage.xaml.cpp)
+     1>c:\work\windows 8 samples\swapchainbgpanel\mainpage.xaml.h(22): warning C4453: 'Windows::UI::Xaml::Navigation::NavigationEventArgs' : A '[WebHostHidden]' type should not be used on the published surface of a public type that is not '[WebHostHidden]' (DirectXBase.cpp)
+     1>c:\work\windows 8 samples\swapchainbgpanel\mainpage.xaml.h(22): warning C4453: 'Windows::UI::Xaml::Navigation::NavigationEventArgs' : A '[WebHostHidden]' type should not be used on the published surface of a public type that is not '[WebHostHidden]' (RenderEngine.cpp)
+     1>c:\work\windows 8 samples\swapchainbgpanel\mainpage.xaml.h(22): warning C4453: 'Windows::UI::Xaml::Navigation::NavigationEventArgs' : A '[WebHostHidden]' type should not be used on the published surface of a public type that is not '[WebHostHidden]' (Generated Files\XamlTypeInfo.Impl.g.cpp)
+       CreateWinMD:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Work\Windows 8 Samples\SwapChainBGPanel\Debug\SwapChainBGPanel\SwapChainBGPanel.exe" /INCREMENTAL /NOLOGO d3d11.lib dxgi.lib kernel32.lib /MANIFEST:NO /DEBUG /PDB:"C:\Work\Windows 8 Samples\SwapChainBGPanel\Debug\SwapChainBGPanel\SwapChainBGPanel.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /APPCONTAINER /WINMD:ONLY /WINMDFILE:"C:\Work\Windows 8 Samples\SwapChainBGPanel\Debug\SwapChainBGPanel\SwapChainBGPanel.winmd" /DYNAMICBASE /NXCOMPAT /MACHINE:X86 Debug\App.xaml.obj
+         Debug\Controller.obj
+         Debug\DirectXBase.obj
+         Debug\MainPage.xaml.obj
+         Debug\pch.obj
+         Debug\RenderEngine.obj
+         Debug\RunTimer.obj
+         Debug\XamlTypeInfo.Impl.g.obj
+       CompileXamlGeneratedFiles:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\Work\Windows 8 Samples\SwapChainBGPanel\\" /I"Generated Files\\" /IDebug\ /ZI /ZW /ZW:nostdlib /nologo /W3 /WX- /sdl /MP /Od /Oy- /D _UNICODE /D UNICODE /D _DEBUG /D WINAPI_FAMILY=WINAPI_FAMILY_APP /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"pch.h" /Fp"Debug\SwapChainBGPanel.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /FU"C:\Program Files (x86)\Microsoft SDKs\Windows\v8.0\ExtensionSDKs\Microsoft.VCLibs\11.0\References\CommonConfiguration\neutral\platform.winmd" /FU"C:\Program Files (x86)\Windows Kits\8.0\References\CommonConfiguration\Neutral\Windows.winmd" /FU"C:\Program Files (x86)\Windows Kits\8.0\References\CommonConfiguration\Neutral\Windows.winmd" /analyze- /errorReport:prompt /bigobj "Generated Files\XamlTypeInfo.g.cpp"
+         XamlTypeInfo.g.cpp
+     1>c:\work\windows 8 samples\swapchainbgpanel\mainpage.xaml.h(22): warning C4453: 'Windows::UI::Xaml::Navigation::NavigationEventArgs' : A '[WebHostHidden]' type should not be used on the published surface of a public type that is not '[WebHostHidden]'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Work\Windows 8 Samples\SwapChainBGPanel\Debug\SwapChainBGPanel\SwapChainBGPanel.exe" /INCREMENTAL /NOLOGO d3d11.lib dxgi.lib kernel32.lib /MANIFEST:NO /DEBUG /PDB:"C:\Work\Windows 8 Samples\SwapChainBGPanel\Debug\SwapChainBGPanel\SwapChainBGPanel.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /APPCONTAINER /WINMD:NO /WINMDFILE:"C:\Work\Windows 8 Samples\SwapChainBGPanel\Debug\SwapChainBGPanel\SwapChainBGPanel.winmd" /DYNAMICBASE /NXCOMPAT /MACHINE:X86 Debug\App.xaml.obj
+         Debug\Controller.obj
+         Debug\DirectXBase.obj
+         Debug\MainPage.xaml.obj
+         Debug\pch.obj
+         Debug\RenderEngine.obj
+         Debug\RunTimer.obj
+         Debug\XamlTypeInfo.Impl.g.obj
+         Debug\XamlTypeInfo.g.obj
+            Creating library C:\Work\Windows 8 Samples\SwapChainBGPanel\Debug\SwapChainBGPanel\SwapChainBGPanel.lib and object C:\Work\Windows 8 Samples\SwapChainBGPanel\Debug\SwapChainBGPanel\SwapChainBGPanel.exp
+         SwapChainBGPanel.vcxproj -> C:\Work\Windows 8 Samples\SwapChainBGPanel\Debug\SwapChainBGPanel\SwapChainBGPanel.exe
+       _GenerateProjectPriFileCore:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\MakePri.exe New -ProjectRoot "C:\Work\Windows 8 Samples\SwapChainBGPanel\\" -ConfigXml Debug\priconfig.xml -OutputFile "C:\Work\Windows 8 Samples\SwapChainBGPanel\Debug\SwapChainBGPanel\resources.pri" -IndexName df7ed2d3-aca0-4010-917d-9dd4d95fbf83 -Verbose -Overwrite  
+     1>Done Building Project "C:\Work\Windows 8 Samples\SwapChainBGPanel\SwapChainBGPanel.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:09.62

@@ -1,0 +1,1 @@
+C:\Work\Windows 8 Samples\SwapChainBGPanel\SwapChainBGPanel.vcxproj;x86
