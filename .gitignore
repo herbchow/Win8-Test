@@ -1,5 +1,8 @@
 [Oo]bj
 [Bb]in
+[Dd]ebug
+[Gg]eneratedFiles
+ipch
 *.user
 *.suo
 *.[Cc]ache
